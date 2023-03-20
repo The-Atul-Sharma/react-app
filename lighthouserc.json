@@ -8,7 +8,12 @@
           "startServerReadyPattern": "Accepting connections at http://localhost:3000",
           "settings": {
               "onlyCategories": [
-                  "accessibility"
+                  "accessibility",
+                  "best-practices",
+                  "performance",
+                  "pwa",
+                  "seo"
+
               ]
           }
       },
