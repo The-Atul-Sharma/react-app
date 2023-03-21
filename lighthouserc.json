@@ -1,21 +1,7 @@
 {
   "ci": {
       "collect": {
-          "url": [
-              "http://localhost:3000"
-          ],
-          "startServerCommand": "npm start",
-          "startServerReadyPattern": "Accepting connections at http://localhost:3000",
-          "settings": {
-              "onlyCategories": [
-                  "accessibility",
-                  "best-practices",
-                  "performance",
-                  "pwa",
-                  "seo"
-
-              ]
-          }
+          "staticDistDir": "./build"
       },
       "upload": {
           "target": "temporary-public-storage"
